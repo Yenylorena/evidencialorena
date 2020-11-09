@@ -1,0 +1,501 @@
+clang version 7.0.0-3~ubuntu0.18.04.1 (tags/RELEASE_700/final)
+ pwd
+/home/runner/miprimerprograma
+ git init
+Initialized empty Git repository in /home/runner/miprimerprograma/.git/
+ 
+ ./heroku/bin/heriku login -i
+bash: ./heroku/bin/heriku: No such file or directory
+ ./../heroku/bin/heriku login -i
+bash: ./../heroku/bin/heriku: No such file or directory
+ cd heroku/bin
+ pwd
+/home/runner/miprimerprograma/heroku/bin
+ ./heroku login -i
+ ›   Warning: Our terms of service have changed: https://dashboard.heroku.com/terms-of-service
+heroku: Enter your login credentials
+Email: lorena890319@gmail.com
+Password: ***************
+Logged in as lorena890319@gmail.com
+ ./../heroku/bin/heroku git:remote -a geolore13
+bash: ./../heroku/bin/heroku: No such file or directory
+ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    ../../heroku-linux-x64.tar.gz
+    ../
+    ../../main.c
+    ../../practica/
+
+nothing added to commit but untracked files present (use "git add" to track)
+ git comit -m "primera version"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+    commit
+ git config --global user.email "lorena890319@gmail.com"
+ git config --global user.name "yeny lorena"
+ git comit -m "primera version"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+    commit
+ git log
+fatal: your current branch 'master' does not have any commits yet
+ git commit -m "primera version"
+On branch master
+
+Initial commit
+
+Untracked files:
+    ../../heroku-linux-x64.tar.gz
+    ../
+    ../../main.c
+    ../../practica/
+
+nothing added to commit but untracked files present
+ git add .
+ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+    new file:   heroku
+    new file:   heroku.cmd
+    new file:   node
+    new file:   run
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    ../../heroku-linux-x64.tar.gz
+    ../CHANGELOG.md
+    ../LICENSE
+    ../README.md
+    ../lib/
+    ../node_modules/
+    ../oclif.manifest.json
+    ../package.json
+    ../yarn.lock
+    ../../main.c
+    ../../practica/
+
+ git log
+fatal: your current branch 'master' does not have any commits yet
+ git add .
+ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+    new file:   heroku
+    new file:   heroku.cmd
+    new file:   node
+    new file:   run
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    ../../heroku-linux-x64.tar.gz
+    ../CHANGELOG.md
+    ../LICENSE
+    ../README.md
+    ../lib/
+    ../node_modules/
+    ../oclif.manifest.json
+    ../package.json
+    ../yarn.lock
+    ../../main.c
+    ../../practica/
+
+ git comit -m "primera version"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+    commit
+ pwd
+/home/runner/miprimerprograma/heroku/bin
+ cd..
+bash: cd..: command not found
+ cd ..
+ cd ..
+ cd practica
+ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    app/
+    profile
+    requirements.txt
+    runtime.txt
+    wsgi.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+ pwd
+/home/runner/miprimerprograma/practica
+ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    Procfile
+    app/
+    requirements.txt
+    runtime.txt
+    wsgi.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    Procfile
+    app/
+    requirements.txt
+    runtime.txt
+    wsgi.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    Procfile
+    app/
+    requirements.txt
+    runtime.txt
+    wsgi.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    Procfile
+    app/
+    requirements.txt
+    runtime.txt
+    wsgi.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    Procfile
+    app/
+    requirements.txt
+    runtime.txt
+    wsgi.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+ pwd
+/home/runner/miprimerprograma/practica
+ pwd
+/home/runner/miprimerprograma/practica
+ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    Procfile
+    app/
+    requirements.txt
+    runtime.txt
+    wsgi.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+ git add .
+ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+    new file:   Procfile
+    new file:   app/main.py
+    new file:   app/templates/index.html
+    new file:   requirements.txt
+    new file:   runtime.txt
+    new file:   wsgi.py
+
+ git comit -m "primera version"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+    commit
+ pwd
+/home/runner/miprimerprograma
+ pwd
+/home/runner/miprimerprograma
+ cd ..
+ cd ..
+ cd practica
+bash: cd: practica: No such file or directory
+ pwd
+/home
+ cd runner
+ pwd
+/home/runner
+ cd miprimerprograma
+ pwd
+/home/runner/miprimerprograma
+ cd practica
+ pwd
+/home/runner/miprimerprograma/practica
+ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+    new file:   Procfile
+    new file:   app/main.py
+    new file:   app/templates/index.html
+    new file:   requirements.txt
+    new file:   runtime.txt
+    new file:   wsgi.py
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+    modified:   Procfile
+    modified:   app/main.py
+    modified:   app/templates/index.html
+    modified:   requirements.txt
+    modified:   runtime.txt
+    modified:   wsgi.py
+
+ git init
+Reinitialized existing Git repository in /home/runner/miprimerprograma/practica/.git/
+ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+    new file:   Procfile
+    new file:   app/main.py
+    new file:   app/templates/index.html
+    new file:   requirements.txt
+    new file:   runtime.txt
+    new file:   wsgi.py
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+    modified:   Procfile
+    modified:   app/main.py
+    modified:   app/templates/index.html
+    modified:   requirements.txt
+    modified:   runtime.txt
+    modified:   wsgi.py
+
+ pwd
+/home/runner/miprimerprograma/practica
+ git add .
+ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+    new file:   Procfile
+    new file:   app/main.py
+    new file:   app/templates/index.html
+    new file:   requirements.txt
+    new file:   runtime.txt
+    new file:   wsgi.py
+
+ git comit -m "primera version"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+    commit
+ git commit -m "primera version"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'runner@0246a267fb3c.(none)')
+ git config --global user.email "lorena890319@gmail.com"
+ git config --global user.name "yeny lorena"
+ git comit -m "primera version"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+    commit
+ git comnit -m "primera version"
+git: 'comnit' is not a git command. See 'git --help'.
+
+The most similar command is
+    commit
+ ^C
+ git comnit -m "primera version"
+git: 'comnit' is not a git command. See 'git --help'.
+
+The most similar command is
+    commit
+ ^C
+ ^C
+ git commit -m "primera version"
+[master (root-commit) 111cda0] primera version
+ 6 files changed, 153 insertions(+)
+ create mode 100644 Procfile
+ create mode 100644 app/main.py
+ create mode 100644 app/templates/index.html
+ create mode 100644 requirements.txt
+ create mode 100644 runtime.txt
+ create mode 100644 wsgi.py
+ git remote add origin https://git.heroku.com/geolore13.git
+ git push --set-upstream origin master
+Username for 'https://git.heroku.com': ^C
+ ^C
+ git push --set-upstream origin master
+Username for 'https://git.heroku.com': https://geolore13.herokuapp.com
+Password for 'https://https://geolore13.herokuapp.com@git.heroku.com': 
+remote: !   WARNING:
+remote: !   Do not authenticate with username and password using git.
+remote: !   Run `heroku login` to update your credentials, then retry the git command.
+remote: !   See documentation for details: https://devcenter.heroku.com/articles/git#http-git-authentication
+fatal: Authentication failed for 'https://git.heroku.com/geolore13.git/'
+ git push --set-upstream origin master
+Username for 'https://git.heroku.com': ^C
+ pwd
+/home/runner/miprimerprograma/practica
+ ./heroku login -i
+bash: ./heroku: No such file or directory
+ ./heroku login -i
+bash: ./heroku: No such file or directory
+ ./../heroku/bin/heriku login -i
+bash: ./../heroku/bin/heriku: No such file or directory
+ cd ..
+ cd ..
+ cd practica
+bash: cd: practica: No such file or directory
+ pwd
+/home/runner
+ cd miprimerprograma
+ pwd
+/home/runner/miprimerprograma
+ cd heroku/bin
+ ./heroku login -i
+ ›   Warning: Our terms of service have changed: 
+ ›   https://dashboard.heroku.com/terms-of-service
+heroku: Enter your login credentials
+Email: lorena890319@gmail.com
+Password: ***************
+Logged in as lorena890319@gmail.com
+ cd practica
+bash: cd: practica: No such file or directory
+ pwd
+/home/runner/miprimerprograma/heroku/bin
+ cd ..
+ cd ..
+ pwd
+/home/runner/miprimerprograma
+ cd practica
+ pwd
+/home/runner/miprimerprograma/practica
+ git push --set-upstream origin master
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (10/10), 2.07 KiB | 1.04 MiB/s, done.
+Total 10 (delta 0), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Python app detected
+remote:  !     Python has released a security update! Please consider upgrading to python-3.7.9
+remote:        Learn More: https://devcenter.heroku.com/articles/python-runtimes
+remote: -----> Installing python-3.7.5
+remote: -----> Installing pip 20.1.1, setuptools 47.1.1 and wheel 0.34.2
+remote: -----> Installing SQLite3
+remote: -----> Installing requirements with pip
+remote:        Collecting gunicorn==20.0.4
+remote:          Downloading gunicorn-20.0.4-py2.py3-none-any.whl (77 kB)
+remote:        Collecting Flask==1.1.2
+remote:          Downloading Flask-1.1.2-py2.py3-none-any.whl (94 kB)
+remote:        Collecting itsdangerous>=0.24
+remote:          Downloading itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+remote:        Collecting Jinja2>=2.10.1
+remote:          Downloading Jinja2-2.11.2-py2.py3-none-any.whl (125 kB)
+remote:        Collecting click>=5.1
+remote:          Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+remote:        Collecting Werkzeug>=0.15
+remote:          Downloading Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+remote:        Collecting MarkupSafe>=0.23
+remote:          Downloading MarkupSafe-1.1.1-cp37-cp37m-manylinux1_x86_64.whl (27 kB)
+remote:        Installing collected packages: gunicorn, itsdangerous, MarkupSafe, Jinja2, click, Werkzeug, Flask
+remote:        Successfully installed Flask-1.1.2 Jinja2-2.11.2 MarkupSafe-1.1.1 Werkzeug-1.0.1 click-7.1.2 gunicorn-20.0.4 itsdangerous-1.1.0
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote: 
+remote: -----> Compressing...
+remote:        Done: 48.3M
+remote: -----> Launching...
+remote:        Released v3
+remote:        https://geolore13.herokuapp.com/ deployed to Heroku
+remote: 
+remote: Verifying deploy... done.
+To https://git.heroku.com/geolore13.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+ ^C
+ ^C
+ 
